@@ -1,0 +1,9 @@
+CREATE TABLE tv_shows (
+  id INT,
+  name TEXT,
+  rating INT
+ );
+  INSERT INTO tv_shows (id, name, rating) VALUES (1, 'friends', 5);
+  INSERT INTO tv_shows (id, name, rating) VALUES(2, 'spongebob', 4);
+  INSERT INTO tv_shows (id, name, rating) VALUES (3, 'The office', 5);
+  SELECT * FROM tv_shows ;
